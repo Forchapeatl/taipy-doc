@@ -241,6 +241,8 @@ theme:
     - navigation.footer
     - content.tabs.link
     - content.code.copy
+    - search.highlight
+    - search.suggest
 extra_css:
   - assets/stylesheets/avaiga.css
 markdown_extensions:
@@ -276,6 +278,7 @@ plugins:
             show_source: false
   - macros:
       module_name: tools/postprocess
+  - tags
 watch:
   - taipy
   - tools/postprocess.py
